@@ -1,1 +1,34 @@
 Just some random "problems" and solutions to them.
+
+Best Compression Ever
+
+URL : http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2592
+
+Description:
+	Being educated in Computer Science and Mathematics is not always easy. Especially not if you have ``friends'' who repeatedly insist on showing you their new ``proofs'' that P equals NP, that the Riemann Hypothesis is true, and so on.
+
+	One of your friends recently claims to have found a fantastic new compression algorithm. As an example of its amazing performance, your friend has told you that every file in your precious collection of random bit strings after compression would be at most b bits long! Naturally, you find this a bit hard to believe, so you want to determine whether it is even theoretically possible for this to be true.
+
+	Your collection of random bit strings consists of N files, no two of which are identical, and each of which is exactly 1000 bits long.
+
+	Input 
+
+	The input file contains several test cases, each of them as described below.
+	The input consists of two integers N ( 1N1015 ) and b ( 0b50 ), giving the number of files in your collection and the maximum number of bits a compressed file is allowed to have.
+
+	Output 
+
+	For each test case, write to the output a line containing either ``yes'' if it is possible to compress all the N files in your collection into files of size at most b bits, or ``no'' otherwise.
+
+	Sample Input 
+
+	13 3
+	1 0
+	31415926535897 40
+	Sample Output 
+
+	yes
+	yes
+	no
+	
+//
